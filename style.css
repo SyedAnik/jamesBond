@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-size: 22px;
+}
+.start-hlaf h2{
+    font-size: 40px;
+}
+
+.top fieldset{
+    padding-left: 25px;
+}
+
+
+.start-hlaf span{
+    font-size: 50px;
+   
+}
+.bth-info{
+    color: white;
+    background: rgb(201, 35, 35);
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.start-hlaf{
+    width: 40%;
+    margin: 2px;
+    float: left;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.start-hlaf img{
+    width: 100%;
+    padding-left: 150px;
+    height: 80%;
+    
+}
+
+.sec-one{
+    display: flex;
+}
+
+.sec-one img{
+    margin: 5px;
+    width: 60%;
+}
+.m{
+    width: 39%;
+}
+.n{
+    width: 35%;
+}
+
+.sec-one img:hover{
+    border:3px rgb(206, 9, 9) solid;
+}
+
+.last-part{
+    display: flex;
+}
+
+.co-font{
+    padding-left: 650px;
+    font-size: 40px;
+}
+.last-part img{
+    margin: 10px;
+    width: 90%;
+}
+
+.btn-s{
+    background: rgb(201, 35, 35);
+    color: white;
+    margin-top: 6px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.btn-s:hover{
+    border: 3px solid black;
+}
+.mar{
+    margin-top: 7px;
+}
+
+.logo img{
+    width: 27%;
+    position: absolute;   
+    left: 590px;;
+}
+@media (max-width:600px){
+    .start-hlaf{
+        width: 60%;
+    }
+    .start-hlaf img{
+        width: 130%;
+        padding-left: 20px;
+    }
+    .bth-info{
+        padding-left: 180px;
+        padding-right: 170px;
+    }
+    .co-font{
+        text-align: center;
+        padding-left: 0px;
+    }
+    .m {
+        width: 100%;
+    }
+    .n {
+        width: 100%;
+    }
+    .sec-one {
+        display: block;
+        margin-left: 120px;
+    }
+    p {
+        font-size: 15px;
+        padding-left: 25px;
+    }
+    .last-part {
+        display: block;
+    }
+    .last-part img {
+        margin-left: 160px;
+        width: 30%;
+    }
+    .btn-s{
+        padding-left: 50px;
+        padding-right: 40px;
+        margin-left: 160px;
+    }
+    .logo img{
+        left: 180px;
+    }
+}
